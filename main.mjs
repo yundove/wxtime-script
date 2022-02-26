@@ -42,7 +42,7 @@ try {
     await recorder.rename(videoTitle);
 
     // 设置起始播放时间
-    await player.setTime(330);
+    await player.setTime(0);
 
     // 设置全屏
     await player.setFullscreen();
